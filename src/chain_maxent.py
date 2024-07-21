@@ -555,4 +555,12 @@ predicted_probs = predict_probabilities(ursr_test_file, wdur_test_file, trained_
 
 print(f"The DataFrame of predicted probabilities for test items ({num_runs} models):\n")
 print(predicted_probs)
+
+
+# 3. Read saved files
+# 3a. Read .npy to numpy array
+trained_weights_arr = np.load('trained_weights.npy', allow_pickle=True)
+
+# 3b. Read .csv to DataFrame
+trained_weights_df = pd.read_csv('trained_weights.csv', encoding='utf-8')
 			
