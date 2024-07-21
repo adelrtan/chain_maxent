@@ -1,0 +1,10 @@
+﻿word,UR,"(pa, pa)","(ba, ba)","(ba, BA)","(ka, ka)","(ga, ga)","(ga, GA)"
+paka,paka,1,0,0,1,0,0
+paga,paga,1,0,0,0,1,0
+paga,paGA,1,0,0,0,0,1
+baka,baka,0,1,0,1,0,0
+baka,BAka,0,0,1,1,0,0
+baga,baga,0,1,0,0,1,0
+baga,BAga,0,0,1,0,1,0
+baga,baGA,0,1,0,0,0,1
+baga,BAGA,0,0,1,0,0,1
